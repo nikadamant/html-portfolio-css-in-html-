@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikita's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    div {
+      height: 300px;
+      width: 360px;
+      background-color: #eeffc0;
+      border: #2a9d8f dotted 1px;
+      border-radius: 10px;
+      margin: 20px;
+      display: inline-block;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #2a9d8f;
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #264653;
+      margin-bottom: 20px;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #e9c46a;
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    h3 {
+      font-size: 1.5em;
+      color: #e76f51;
+      margin-top: 15px;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #023e8a;
+    }
+
+    img {
+      filter: grayscale(50%) blur(2px);
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      filter: grayscale(0%) blur(0px);
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Nikita's Portfolio</h1>
+  <h2>I'm a Web Developer</h2>
+  <hr />
+
+  <main>
+    <div><h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
+      <img src="./assets/images/movie-ranking.png" height="200" alt="movie ranking project preview" />
+    </div>
+  
+    <div><h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
+      <img src="./assets/images/birthday-invite.png" height="200" alt="birthday invite project preview" />
+    </div>
+  </main>
+
+  <hr />
+  <a href="./public/about.html">About Me</a> |
+  <a href="./public/contact.html">Contact Me</a>
+
+</body>
+
+</html>
